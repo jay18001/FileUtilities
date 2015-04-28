@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 # xcode noise
 CorridorHelper.xcodeproj/project.xcworkspace/xcuserdata/*
 CorridorHelper.xcodeproj/xcuserdata/*
 .DS_Store
 .DS_Store
 build/*
+=======
+# Xcode
+#
+build/
+>>>>>>> f209793ced3ed0f65514c04bc67031693af130ed
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -12,8 +18,26 @@ build/*
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+<<<<<<< HEAD
 *.xcworkspace
 !default.xcworkspace
 xcuserdata
 profile
 *.moved-aside
+=======
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
+#Pods/
+>>>>>>> f209793ced3ed0f65514c04bc67031693af130ed
